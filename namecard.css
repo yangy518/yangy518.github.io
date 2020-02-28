@@ -1,0 +1,182 @@
+
+  @keyframes dash{
+    from {
+      stroke-dashoffset: 822;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+ 
+ }
+
+ body{
+   background-color: #fcede7;
+   margin: 0;
+   /* bold font type  */
+   font-family: itc-avant-garde-gothic-pro, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+ }
+ 
+
+ .namecard {
+   display: inline-block;
+   position: absolute;
+  top: 20%;
+  left: 35%;
+  background-color: transparent;
+  width: 500px;
+  height: 620px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+  border-radius: 30px;
+  /* box-shadow: 10px 10px 5px grey; */
+
+}
+
+.namecard-inside{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px grey;
+
+
+}
+.intro{
+  position: relative;
+  font-size: 100px;
+  text-align: left;
+  top: 20px;
+  margin-left: 55px;
+  margin-top: 50px;
+  animation: blink 9s infinite;
+  text-shadow: 0 0 5px #403F91, 0 0 10px #403F91, 0 0 15px #403F91, 0 0 30px #403F91, 0 0 50px #6F43C4, 0 0 10px #403F91, 0 0 98px #6F43C4;
+    color: #E6F5F5;
+}
+
+@keyframes blink {
+    20%,
+    24%,
+    55% {
+    color: #e8a2ac;
+    text-shadow: none;
+    }
+
+  0%,
+  15%,
+  22%,
+  30%,
+  50%,
+  60%,
+  100% {
+  text-shadow: 0 0 5px #8BAFE0, 0 0 10px #8BAFE0, 0 0 15px #8BAFE0, 0 0 30px #616FB0, 0 0 50px #6F43C4, 0 0 10px #616FB0, 0 0 98px #6F43C4;
+    color: #405092;
+  }
+}
+
+.namecard:hover .namecard-inside{
+  transform: rotateY(180deg);
+}
+.namecard:hover .intro {
+display: none;
+}
+.namecard-front, .namecard-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.namecard-front {
+  background-color: #e8a2ac;
+  color: #405092;
+  border-radius: 30px;
+
+}
+
+.namecard-back {
+  background-color: white;
+  color: #405092;
+  transform: rotateY(180deg);
+  text-shadow: none;
+  border-radius: 30px;
+
+
+}
+.picture img{
+  position: relative;
+width: 95%;
+height: auto;
+transform: translate(-20px, -170px) scale(0.5, 0.5);
+
+}
+
+.back-text{
+  display: inline-block;
+  position: relative;
+  bottom: -390px;
+}
+
+svg{
+  display: inline-block;
+  position: absolute;
+  top: -540%;
+  left: -53%;
+}
+
+.path {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;      
+    animation: dash 6s linear alternate infinite;
+  }
+
+.intro2{
+ display: inline-block;
+  position: relative;
+  bottom: 250px;
+  }
+
+
+  @media only screen and (max-width: 600px){
+    .namecard{
+      width: 200px;
+      height: 248px;
+    }
+    .intro{
+      font-size: 30px;
+    }
+    svg{
+      width:240px;
+      height:200px;
+      top: -270%;
+      left: -53%;
+    }
+
+    .picture img{
+      position: relative;
+      width: 95%;
+      height: auto;
+      transform: translate(-10px, -90px) scale(0.5, 0.5);
+      }
+  
+      .back-text{
+        display: inline-block;
+        position: relative;
+        font-size: 10px;
+        bottom: -130px;
+      }
+      
+    .intro2{
+      font-size: 8px;
+      bottom: 130px;
+    }
+    
+  
+  }
+
+  

@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    max-height: 1300vh;
+}
+
+.money{
+    position: absolute;
+    width: 259px;
+    bottom: 324px;
+    left: 511px;
+}
+.place{
+    width: 370px;
+    position: absolute;
+    top: 261px;
+    right: 547px;
+}
+.birthday{
+    position: absolute;
+    width: 290px;
+    right: 552px;
+    top: 11px;
+}
+
+.portrait{
+    width: 170px;
+    position: absolute;
+    fill: pink;
+    top: 3px;
+    left: 554px;
+
+}
+
+.circle{
+    position: absolute;
+    width: 457px;
+    top: 334px;
+    left: 718px;
+}
+
+.name{
+    position: absolute;
+    width: 267px;
+    top: 7px;
+    left: 700px;
+}
+.pet{
+    position: absolute;
+    width: 171px;
+    top: 339px;
+    left: 765px;
+}
+.memory{
+    position: absolute;
+    width: 446px;
+    bottom: 88px;
+    left: 514px;
+}
+
+.add{
+    position: absolute;
+    width: 95px;
+    bottom: 318px;
+    left: 672px;
+}
