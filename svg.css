@@ -13,12 +13,13 @@ body{
     width: 370px;
     position: absolute;
     top: 261px;
-    right: 547px;
+    left: 765px;
+
 }
 .birthday{
     position: absolute;
     width: 290px;
-    right: 552px;
+    left: 838px;
     top: 11px;
 }
 
