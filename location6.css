@@ -1,0 +1,82 @@
+.mainpage{
+    transform: scale(1.2, 1.2);
+    position: absolute;
+    top: 10%;
+    left: 25%;
+}
+
+.notes{
+    color: black;
+    position: absolute;
+    left: 35%;
+    top: 10%;
+    transform: scale(2, 2);
+}
+
+.music_notes{
+    position: absolute;
+    right: 30%;
+    top: 8%;
+}
+
+.singer1{
+    position: absolute;
+    left: 46%;
+    top: 24%;
+    transform: rotate(-13deg) scale(2, 2);
+}
+.singer2{
+    position: absolute;
+    left: 50%;
+    top: 34%;
+    transform: rotate(-13deg)scale(2, 2);
+}
+
+.microphone{
+    position: absolute;
+    transform: scale(0.5, 0.7);
+    right: 48%;
+    bottom: 34%;
+    
+}
+
+.dancer1{
+    position: absolute;
+    transform: rotate(3deg) scale(2, 2);
+    left: 52%;
+    bottom: 43%;
+}
+
+.singer3{
+    position: absolute;
+    left: 51%;
+    bottom: 53%;
+    transform: scale(2, 2);
+}
+.monitor{
+    position: absolute;
+    left: 30%;
+    bottom: 38%;
+}
+
+.bar{
+    position: absolute;
+    left: 30%;
+    top: 14%;
+}
+.back{
+    position: absolute;
+    bottom: 38%;
+    left: 30%;
+    font-family: monospace;
+
+    }
+
+a:link{
+    text-decoration: none;
+    color: orange;
+
+    }
+a:visited{
+    color: orange;
+}

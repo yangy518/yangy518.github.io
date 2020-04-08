@@ -1,0 +1,43 @@
+.mainpage{
+    transform: scale(1.2, 1.2);
+    position: absolute;
+    top: 10%;
+    left: 25%;
+}
+*{
+    font-family: monospace;
+}
+.school{
+    position: absolute;
+    top: 10%;
+    left: 32%;
+}
+
+.student1{
+    position: absolute;
+    bottom: 40%;
+    right: 32%; 
+}
+.go{
+    position: absolute;
+    bottom: 37%;
+    right: 31%; 
+}
+
+a:link{
+    text-decoration: none;
+    color: green;
+
+    }
+a:visited{
+    color: green;
+}
+
+.back{
+    position: absolute;
+    bottom: 37%;
+    left: 30%;
+    font-family: monospace;
+
+    }
+

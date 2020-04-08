@@ -1,0 +1,121 @@
+
+a:link{
+    text-decoration: none;
+    color: black;
+
+    }
+a:visited{
+    color: black;
+}
+
+a:hover{
+
+}
+
+    
+
+.welcome{
+    top: 10%;
+    left: 32%;
+    font-family: monospace;
+    font-size: 40px;
+    position: absolute;
+}
+
+
+.mainpage{
+    transform: scale(1.2, 1.2);
+    position: absolute;
+    top: 10%;
+    left: 25%;
+}
+
+.location1{
+    line-height: 0;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    display: inline-block;
+    background-color: grey;
+}
+
+.location2{
+    line-height: 0;
+    position: absolute;
+    top: 20%;
+    right: 30%;
+    display: inline-block;
+    background-color: lightskyblue;
+}
+
+.location3{
+    line-height: 0;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    display: inline-block;
+    background-color: orange;
+}
+
+.location4{
+    line-height: 0;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    display: inline-block;
+    background-color: rgb(127, 227, 163);
+}
+
+.location5{
+    line-height: 0;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    display: inline-block;
+    background-color: rgb(165, 85, 177);
+}
+
+
+.location6{
+    line-height: 0;
+    position: absolute;
+    bottom: 51%;
+    right: 45%;
+    display: inline-block;
+    background-color: rgb(232, 240, 85);
+}
+
+.location7{
+    line-height: 0;
+    position: absolute;
+    bottom: 40%;
+    left: 40%;
+    display: inline-block;
+    background-color: rgb(95, 120, 203);
+}
+
+.location8{
+    line-height: 0;
+    position: absolute;
+    top: 35%;
+    right: 35%;
+    display: inline-block;
+    background-color: rgb(144, 218, 120);
+}
+
+.location9{
+    line-height: 0;
+    position: absolute;
+    bottom: 38%;
+    right: 30%;
+    display: inline-block;
+    background-color: rgb(210, 68, 176);
+}
+
+.background{
+    position: absolute;
+    top: 10%;
+    left: 29%;
+    width: 700px;
+    height: 420px;
+}

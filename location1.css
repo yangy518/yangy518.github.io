@@ -1,0 +1,40 @@
+
+.mainpage{
+    transform: scale(1.2, 1.2);
+    position: absolute;
+    top: 10%;
+    left: 25%;
+}
+.instruction{
+    display: inline-block;
+    position: absolute;
+    top: 10%;
+    right: 32%;
+    
+}
+
+.back{
+position: absolute;
+top: 48%;
+right: 38%;
+font-family: monospace;
+}
+
+a:link{
+    text-decoration: none;
+    color: rgb(164, 23, 47);
+
+    }
+a:visited{
+    color: rgb(164, 23, 47);
+}
+
+.background{
+    position: absolute;
+    top: 10%;
+    left: 29%;
+    width: 700px;
+    height: 420px;
+}
+
+

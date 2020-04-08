@@ -1,0 +1,54 @@
+.mainpage{
+    transform: scale(1.2, 1.2);
+    position: absolute;
+    top: 10%;
+    left: 25%;
+}
+.book{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+.shelves{
+    transform: scale(0.7, 0.7);
+    position: absolute;
+    top: 10%;
+    left: 27%;
+}
+
+.textbook{
+    transform: scale(1.2, 01.2);
+    position: absolute;
+    top: 25%;
+    left: 42%;
+}
+
+.table{
+    transform: rotate(180deg) scale(0.5, 0.5);
+    position: absolute;
+    top: 8%;
+    right: 28%;
+}
+
+.flip{
+    transform: scale(2.6, 2.6);
+    position: absolute;
+    top: 16%;
+    right: 43%;
+}
+a:link{
+    text-decoration: none;
+    color: green;
+
+    }
+a:visited{
+    color: green;
+}
+
+.back{
+    position: absolute;
+    bottom: 37%;
+    left: 30%;
+    font-family: monospace;
+
+    }

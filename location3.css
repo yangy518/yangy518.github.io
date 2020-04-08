@@ -1,0 +1,105 @@
+.mainpage{
+    transform: scale(1.2, 1.2);
+    position: absolute;
+    top: 10%;
+    left: 25%;
+}
+
+.bed{
+    position: absolute;
+    top: 10%;
+    left: 28%;
+
+
+}
+.full_bed{
+    /* transform:scale(1.0, 1.0); */
+}
+
+.bear{
+    transform: scale(1.3,1.3) rotate(20deg);
+    position: absolute;
+    top: 20%;
+    right: 34%;
+}
+
+.man{
+    position: absolute;
+    bottom: 10px;
+    left: 10%;
+    transform: scale(2.2,2.2);
+
+}
+
+.window{
+    position: absolute;
+    top: 3%;
+    right: 35%;   
+    transform: scale(0.7,0.7);
+}
+
+.moon{
+    position: absolute;
+    top: 7%;
+    right: 40%;   
+    transform: scale(0.5,0.5);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+ 
+body {
+    background-color: lemonchiffon;
+}
+ 
+main {
+    margin: 22px;
+}
+ 
+#switch {
+    /* position: absolute; */
+    top: 9%;
+    right: 29.5%; 
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: yellow;
+    border: 0.7px solid black;
+    cursor: pointer;
+}
+ 
+    #switch:hover {
+        box-shadow: 0px 0px 3px navy;
+    }
+ 
+#status {
+    margin-top: 22px;
+    text-align: center;
+}
+
+
+.lamp{
+    position: absolute;
+    top: 5%;
+    right: 28%;   
+    transform: scale(0.7,0.7);
+}
+
+.back{
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    font-family: monospace;
+
+    }
+
+a:link{
+    text-decoration: none;
+    color: pink;
+
+    }
+a:visited{
+    color: pink;
+}
