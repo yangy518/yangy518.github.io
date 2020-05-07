@@ -1,0 +1,102 @@
+body {
+    background: #ff6700;
+   }
+   
+   h1 {
+    color: white;
+    text-align: center;
+   font-family: cooper-black-std, serif;
+   font-weight: 400px;
+   font-size: 60px;
+   font-style: normal;
+   text-shadow: white 0px 0px 1px,
+   0 0 1.8px white,
+   0 0 2.7px white;
+   }
+   
+span.orange{
+    font-size: 60px;
+    color:white;
+    font-family: orator-std, monospace;
+  font-style: normal;
+  font-weight: 200; 
+ text-shadow: none;
+   }
+
+ .play{
+     position: relative;
+     height: 100px;
+    /* border-color: black; */
+    /* border-style: solid; */
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    white-space: nowrap;
+   }
+
+   .title{
+    display: inline-block;
+    position: absolute;
+    /* transition-timing-function: linear; */
+    animation: play 17s linear infinite;
+
+   }
+
+   @keyframes play{
+    0%   {left: -40%;}
+    100% {left: 120%;}
+
+   }
+
+   h2 {
+     text-align: center;
+     font-size: 30px;
+     color: white;
+     font-family: orator-std, monospace;
+   font-style: normal;
+   font-weight: 50; 
+   }
+
+  
+
+
+
+
+
+   
+   .box{
+     background: white;
+     width: 50%;
+     height: 300px;
+     margin-left: auto;
+     margin-right: auto;
+     border-color: black;
+     border-style: solid;
+     border-radius: 10px;
+     color: black;
+     
+     text-align: center;
+     height: auto; 
+     padding: 20px;
+     margin-top: 20px;
+   }
+   
+   .quote {
+    font-family: franklin-gothic-urw-comp, sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    font-style: normal;
+   }
+   
+   
+   
+   .pad {
+     margin-bottom: 20px;
+   }
+   
+   .audio{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+   }
